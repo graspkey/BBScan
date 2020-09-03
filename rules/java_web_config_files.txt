@@ -1,0 +1,183 @@
+# Java web
+
+/WEB-INF/web.xml                        {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/web.xml.bak                    {tag="<?xml"}    {status=206}                        {root_only}
+/WEB-INF/applicationContext.xml         {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/applicationContext-slave.xml   {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/config.xml                     {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/spring.xml                     {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/struts-config.xml              {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/struts-front-config.xml        {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/struts/struts-config.xml       {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/classes/spring.xml             {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/classes/struts.xml             {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/classes/struts_manager.xml     {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/WEB-INF/classes/conf/datasource.xml    {tag="<?xml"}    {status=200}     {type="xml"}
+/conf/web.xml                           {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+/conf/server.xml                        {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}       {root_only}
+/WEB-INF/classes/data.xml                         {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/config/applicationContext.xml    {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext.xml           {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/conf/spring/applicationContext-datasource.xml     {tag="<?xml"}    {status=200}    {type="xml"}  {root_only}
+/WEB-INF/config/db/dataSource.xml             {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/spring-cfg/applicationContext.xml    {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/dwr.xml                              {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/hibernate.cfg.xml            {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/rabbitmq.xml                 {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/conf/activemq.xml                    {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext-jsf-consumer.xml            {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext-jsf-provider.xml            {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext-jmq-producer-jc-pre.xml     {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext-jmq-consumer-jc-pre.xml     {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/mvc-servlet.xml                    {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/spring-permission.xml              {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/spring-config-jc-pre.xml           {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/applicationContext-quartz.xml      {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/passport.properties                {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/trace-jmq.properties               {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+/WEB-INF/classes/application-jc-pre.properties      {tag="<?xml"}    {status=200}     {type="xml"}  {root_only}
+
+
+/server.xml                   {status=200}     {tag="<?xml"}    {type="xml"}      {root_only}
+/config/database.yml          {status=200}     {type_no="html"}                   {root_only}
+/configprops                  {status=200}     {tag="serverProperties"}           {root_only}
+
+
+# Spring Boot Actuator
+/api-docs                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/v/api-docs                        {status=200}     {tag="Spring boot serverProperties"}           {root_only}  
+/swagger-ui.html                   {status=200}     {tag="Spring boot swagger-ui.html"}            {root_only}
+/actuator                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/auditevents                       {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/autoconfig                        {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/beans                             {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/eureka                            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/caches                            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/conditions                        {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/configprops                       {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/docs                              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/dump                              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/env                               {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/flyway                            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/health                            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/heapdump                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/httptrace                         {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/info                              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/intergrationgraph                 {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/jolokia                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/logfile                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/loggers                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/liquibase                         {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/metrics                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/mappings                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/prometheus                        {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/refresh                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/scheduledtasks                    {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/sessions                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/shutdown                          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/trace                             {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/threaddump                        {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/druid/login.html                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/entity/all                        {status=200}     {tag="swagger-ui.html"}           {root_only}
+/swagger/swagger-ui.html           {status=200}     {tag="swagger-ui.html"}           {root_only}
+/api/swagger-ui.html               {status=200}     {tag="swagger-ui.html"}           {root_only}
+/swagger/index.html                {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.1/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.2/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.3/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.4/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.5/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.6/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.7/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.8/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v1.9/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v2.0/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v2.1/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v2.2/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/v2.3/swagger-ui.html              {status=200}     {tag="swagger-ui.html"}           {root_only}
+/%20/swagger-ui.html               {status=200}     {tag="swagger-ui.html"}           {root_only}
+/jolokia/list                      {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/auditevents      {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/beans            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/conditions       {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/configprops      {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/env              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/trace            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/health           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/logfile          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/heapdump         {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/httptrace        {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/hystrix.stream   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/info             {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/jolokia          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/loggers          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/mappings         {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/metrics          {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/scheduledtasks   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/threaddump       {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/gateway/actuator/swagger-ui.html  {status=200}     {tag="swagger-ui.html"}           {root_only}
+/webpage/system/druid/index.html   {status=200}     {tag="swagger-ui.html"}           {root_only}
+/system/druid/index.html           {status=200}     {tag="swagger-ui.html"}           {root_only}
+/druid/index.html                  {status=200}     {tag="swagger-ui.html"}           {root_only}
+/druid/websession.html             {status=200}     {tag="swagger-ui.html"}           {root_only}
+/hystrix/monitor                   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/auditevents              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/beans                    {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/health                   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/logfile                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/trace                    {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/swagger-ui.html          {status=200}     {tag="swagger-ui.html"}           {root_only}
+/actuator/conditions               {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/configprops              {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/env                      {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/info                     {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/loggers                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/heapdump                 {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/threaddump               {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/metrics                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/scheduledtasks           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/httptrace                {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/mappings                 {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/jolokia                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/actuator/hystrix.stream           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor                           {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/auditevents               {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/beans                     {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/health                    {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/conditions                {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/configprops               {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/env                       {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/info                      {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/loggers                   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/heapdump                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/threaddump                {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/metrics                   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/scheduledtasks            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/httptrace                 {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/mappings                  {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/jolokia                   {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+/monitor/hystrix.stream            {status=200}     {tag="Spring boot serverProperties"}           {root_only}
+
+# struts
+/struts/webconsole.html    {status=200}     {tag="OGNL"}    {type="html"}
+
+
+/WEB-INF/classes/conf/important.properties          {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/conf/system.properties             {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/important.properties               {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/config.properties                  {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/database.properties                        {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/web.properties                             {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/log4j.properties                           {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/dataBase.properties                {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/application.properties             {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/jdbc.properties                    {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/db.properties                      {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/conf/jdbc.properties               {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/security.properties                {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/conf/database_config.properties            {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/config/dbconfig                            {status=200}     {tag="passw"}    {type_no="html"}  {root_only}
+/WEB-INF/classes/conf/product.properties            {status=206}    {type_no="html"}  {root_only}
+/WEB-INF/classes/spring-config.xml                  {tag="<?xml"}    {status=200}     {type="xml"}       {root_only}
+

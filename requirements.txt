@@ -1,0 +1,8 @@
+BeautifulSoup4>=4.3.2
+py2-ipaddress>=3.4.1
+pymongo
+requests
+urllib3
+gevent
+fake_useragent
+grequests<1.25
